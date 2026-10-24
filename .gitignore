@@ -1,0 +1,13 @@
+node_modules/
+.next/
+.next-test/
+.env*
+!.env.example
+data/
+# 검증 화면에 실제 공개 제보의 내용·위치가 포함될 수 있어 외부 저장소에서 제외합니다.
+evidence/
+prisma/*.db*
+test-results/
+playwright-report/
+*.tsbuildinfo
+*.log
