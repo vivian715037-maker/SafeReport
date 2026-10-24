@@ -1,4 +1,4 @@
-/** 모든 FixIt API 진입점. 소유권·출처 검사 후 저장/분석을 수행하고 공개용 응답만 반환합니다. */
+/** 모든 SafeReport API 진입점. 소유권·출처 검사 후 저장/분석을 수행하고 공개용 응답만 반환합니다. */
 import { NextResponse } from "next/server";
 import { z } from "zod";
 import sharp from "sharp";

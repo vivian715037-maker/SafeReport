@@ -380,9 +380,9 @@ export default function Fixit() {
           }}
         >
           <span className="brand-mark">
-            f<span>•</span>
+            S<span>•</span>
           </span>
-          FixIt<span className="brand-tag">생활안전 제보</span>
+          SafeReport<span className="brand-tag">생활안전 제보</span>
         </a>
         <nav aria-label="주요 메뉴">
           {(
@@ -570,7 +570,7 @@ export default function Fixit() {
             <aside className="home-note">
               <span>ⓘ</span>
               <p>
-                FixIt은 <b>신고 준비를 돕는 서비스</b>입니다. 공식 신고는 안내된
+                SafeReport은 <b>신고 준비를 돕는 서비스</b>입니다. 공식 신고는 안내된
                 기관에서 직접 진행해 주세요.
               </p>
               <button onClick={() => navigate("guide")}>자세히 보기 →</button>
@@ -1322,7 +1322,7 @@ export default function Fixit() {
             <div className="page-title">
               <span className="eyebrow">BEFORE YOU START</span>
               <h1>안전하게 함께 이용해요</h1>
-              <p>FixIt이 도울 수 있는 일과 알아두어야 할 한계입니다.</p>
+              <p>SafeReport이 도울 수 있는 일과 알아두어야 할 한계입니다.</p>
             </div>
             <div className="guide-grid">
               {[
@@ -1366,7 +1366,7 @@ export default function Fixit() {
       </main>
       <footer>
         <a className="brand" href="/">
-          FixIt<span className="brand-tag">작은 발견, 안전한 일상</span>
+          SafeReport<span className="brand-tag">작은 발견, 안전한 일상</span>
         </a>
         <p>로컬 MVP · 공식 기관의 접수·처리 결과를 확인하지 않습니다.</p>
         <span>MADE FOR A SAFER EVERYDAY</span>

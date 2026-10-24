@@ -2,7 +2,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 export const metadata: Metadata = {
-  title: "FixIt | 우리 동네의 작은 위험, 함께 고쳐요",
+  title: "SafeReport | 우리 동네의 작은 위험, 함께 고쳐요",
   description: "사진으로 시작하는 생활안전 신고 준비 도우미",
 };
 export default function RootLayout({

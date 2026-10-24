@@ -1,4 +1,4 @@
-/* 한국어 모바일 우선 화면·제보 폼·지도·동의 대화상자의 공통 디자인입니다. */
+/* SafeReport의 한국어 모바일 화면·제보 폼·지도·동의 대화상자 디자인입니다. 긴 작품명도 좁은 화면에서 메뉴와 겹치지 않게 합니다. */
 @import "tailwindcss";
 /* AI 위험도는 신고 상태 배지와 별도의 색·범례로 표시합니다. 미평가를 안전으로 보이지 않게 합니다. */
 .risk-assessment {
@@ -1387,5 +1387,26 @@ pre {
   }
   .two-fields {
     gap: 10px;
+  }
+}
+
+/* 긴 작품명과 네 개의 메뉴를 모바일에서 두 줄로 배치합니다. */
+@media (max-width: 640px) {
+  .header {
+    height: auto;
+    min-height: 104px;
+    flex-wrap: wrap;
+    row-gap: 12px;
+    padding: 14px 18px;
+  }
+  .header .brand {
+    font-size: 23px;
+  }
+  .header nav {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .header nav .nav-cta {
+    display: none;
   }
 }
